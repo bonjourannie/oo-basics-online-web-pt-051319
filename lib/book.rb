@@ -1,11 +1,12 @@
 class Book
+  
   def initialize(title)
     @title = title 
-end
+  end
 
   def title
     @title
-end
+  end
 
 def author=(author)
   @author
@@ -25,6 +26,10 @@ def page_count=(num)
   
   def genre=(genre)
     @genre = genre 
+  end
+  
+  def genre
+    @genre
   end
 
 end 
